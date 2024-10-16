@@ -1,16 +1,25 @@
-smart-translation/
+smart-translation-app/
 ├── public/
 │   └── index.html                // Main HTML file
 ├── src/
 │   ├── components/
-│   │   ├── SubscriptionPlans.js   // Manage subscription plans
-│   │   ├── TranslateStream.js     // Real-time translation component
-│   │   ├── VoiceChanger.js        // Voice changing functionality
+│   │   ├── Collapsible.tsx        // Collapsible component
+│   │   ├── SubscriptionPlans.js    // Manage subscription plans
+│   │   ├── TranslateStream.js      // Real-time translation component
+│   │   ├── VoiceChanger.js         // Voice changing functionality
+│   │   ├── ThemedText.tsx          // Themed text component
+│   │   ├── ThemedView.tsx          // Themed view component
+│   │   ├── ExternalLink.tsx        // External link component
+│   │   └── HelloWave.tsx           // HelloWave component
+│   ├── hooks/
+│   │   └── useThemeColor.ts        // Custom hook for theme color
+│   ├── constants/
+│   │   └── Colors.ts               // Color constants
 │   ├── services/
-│   │   ├── SubscriptionService.js // Handle subscription logic
-│   │   ├── TranslationService.js  // Handle translation requests
-│   ├── App.js                     // Main application component
-│   └── index.js                   // Entry point for the application
-├── .gitignore                     // Files to ignore in version control
-├── LICENSE                        // License file
-└── README.md                      // Project documentation
+│   │   ├── SubscriptionService.js   // Handle subscription logic
+│   │   └── TranslationService.js    // Handle translation requests
+│   ├── App.js                      // Main application component
+│   └── index.js                    // Entry point for the application
+├── .gitignore                      // Files to ignore in version control
+├── LICENSE                         // License file
+└── README.md                       // Project documentation

@@ -1,0 +1,16 @@
+smart-translation/
+├── public/
+│   └── index.html                // Main HTML file
+├── src/
+│   ├── components/
+│   │   ├── SubscriptionPlans.js   // Manage subscription plans
+│   │   ├── TranslateStream.js     // Real-time translation component
+│   │   ├── VoiceChanger.js        // Voice changing functionality
+│   ├── services/
+│   │   ├── SubscriptionService.js // Handle subscription logic
+│   │   ├── TranslationService.js  // Handle translation requests
+│   ├── App.js                     // Main application component
+│   └── index.js                   // Entry point for the application
+├── .gitignore                     // Files to ignore in version control
+├── LICENSE                        // License file
+└── README.md                      // Project documentation

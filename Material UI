@@ -1,0 +1,19 @@
+import React from 'react';
+import { Container, Button, Typography } from '@mui/material';
+import SubscriptionPlans from './components/SubscriptionPlans';
+import TranslateStream from './components/TranslateStream';
+import VoiceChanger from './components/VoiceChanger';
+
+function App() {
+  return (
+    <Container>
+      <Typography variant="h3">Smart Translation & Voice Change</Typography>
+      <SubscriptionPlans />
+      <TranslateStream language="en" />
+      <VoiceChanger />
+      <Button variant="contained" color="primary">Start Streaming</Button>
+    </Container>
+  );
+}
+
+export default App;
